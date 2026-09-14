@@ -1,0 +1,5 @@
+endpoint_id,stage,component,electrode,tmin_ms,tmax_ms,n_subjects,n_high,n_low,n_observations,estimator,denominator_df,covariance_parameters,covariance_rank,positive_definite
+word_N2__k04__b000f,word,N2,P7|P8|PO7|PO5,160,240,60,28,32,240,REML_MMRM_UN,58,10,4,1
+picture_P3__k04__b008b,picture,P3,P7|P5|P8|PO4,250,400,60,28,32,240,REML_MMRM_UN,58,10,4,1
+word_P3__k04__b00e8,word,P3,P5|PO7|PO5|PO3,280,400,60,28,32,240,REML_MMRM_UN,58,10,4,1
+picture_LPP__k05__b011d,picture,LPP,P7|P6|P8|PO7|PO6,400,500,60,28,32,240,REML_MMRM_UN,58,10,4,1

@@ -1,0 +1,5 @@
+endpoint_id,lock,erp_component,window_start_ms,window_end_ms,electrodes,within_subject_factors,between_subject_factor
+word_N2,word,N2,160,240,P7|P8|PO7|PO5,compatibility;word_valence,community_group
+picture_P3,picture,P3,250,400,P7|P5|P8|PO4,compatibility;picture_type,community_group
+word_P3,word,P3,280,400,P5|PO7|PO5|PO3,compatibility;word_valence,community_group
+picture_LPP,picture,LPP,400,500,P7|P6|P8|PO7|PO6,compatibility;picture_type,community_group
