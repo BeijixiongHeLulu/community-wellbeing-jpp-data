@@ -29,4 +29,4 @@ The validation script recomputes all questionnaire and IAT means, standard devia
 
 Identifiers are modality-specific (`Q...`, `IAT...`, `ERP...`). They deliberately cannot be joined across questionnaire, behavior, and ERP files. This preserves every currently reported modality-specific analysis while reducing participant linkability. No re-identification key is included.
 
-The repository is private pending confirmation of the consent/ethics and final data-sharing terms. See `DATA_USE.md`.
+The repository is public. No explicit data or code licence has been assigned; see `DATA_USE.md` for the current use status.
