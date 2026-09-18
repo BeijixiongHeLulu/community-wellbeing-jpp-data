@@ -1,5 +1,7 @@
 # Provenance and release decisions
 
+The released data are a reduced shared subset. The inputs and frozen results described below refer to the original full sample.
+
 ## Bound analysis inputs
 
 - Questionnaire: the 62-row processed scale-score dataset that reproduces current manuscript Table 5 (32 high-support, 30 low-support).

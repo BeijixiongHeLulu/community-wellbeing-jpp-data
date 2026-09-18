@@ -55,7 +55,7 @@ def main():
     fixed = pd.read_csv(ROOT / "results/erp_fixed_effects_all_terms.csv")
     cells = pd.read_csv(ROOT / "data/erp/erp_subject_cell_analysis_ready.csv")
     follow = pd.read_csv(ROOT / "results/erp_followups_gate_released.csv")
-    assert len(cells) == 960 and cells.participant_id.nunique() == 60
+    assert len(cells) == 880 and cells.participant_id.nunique() == 55
     assert cells.groupby(["participant_id", "endpoint_id"]).size().eq(4).all()
     assert len(fixed) == 32 and fixed.effect.ne("Intercept").sum() == 28
     assert len(follow) == 25 and follow.gate_released.eq(1).all()
@@ -64,7 +64,7 @@ def main():
     out.mkdir(parents=True, exist_ok=True)
     questionnaire.to_csv(out / "questionnaire_group_comparisons.csv", index=False)
     behavior.to_csv(out / "iat_group_comparisons.csv", index=False)
-    print("PASS: questionnaire N=62; IAT N=62; ERP N=60 and 960 subject-condition rows.")
+    print("PASS: shared subset questionnaire N=57; IAT N=57; ERP N=55 and 880 subject-condition rows; results/ contains original full-sample outputs.")
 
 
 if __name__ == "__main__":

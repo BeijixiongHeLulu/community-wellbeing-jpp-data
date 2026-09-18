@@ -8,7 +8,7 @@
 - `negative_affect`: mean negative-affect score from the reported MUNSH scoring.
 - `life_satisfaction`: mean life-satisfaction score used in the manuscript.
 - `belonging`: relatedness/belonging mean score used in the manuscript.
-- `resident_experience_composite`: equal-weight mean of sample z scores for positive affect, reversed negative affect, life satisfaction, and belonging (sample SD, `ddof=1`).
+- `resident_experience_composite`: equal-weight mean of sample z scores for positive affect, reversed negative affect, life satisfaction, and belonging (original N=62 sample SD, `ddof=1`; retained without restandardizing the shared subset).
 
 ## IAT behavior
 
